@@ -2,27 +2,40 @@
 
 /**
  *
- *   main - Prints the alphabet in lowercase, and then in uppercase.
- *  
- *   Return: Always 0.
+ *  * main - print if the number is postive, zero, or negative
  *
- */
+ *   *
+ *
+ *    * Description: using the main function
+ *
+ *     * this program prints "Programming is positive, zero, or negative
+ *
+ *      * Return: 0
+ *
+ *       */
 
 int main(void)
 
 {
 
-		char letter;
+	char ch;
 
-		for (letter = 'a'; letter <= 'z'; letter++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 
-			putchar(letter);
+	{
 
-		for (letter = 'A'; letter <= 'Z'; letter++)
-	
-			putchar(letter);
-		
-			putchar('\n');
-return (0);
+		if (ch != 'e' && ch != 'q')
+
+		{
+
+				putchar(ch);
+
+		}
+
+	}
+
+	putchar('\n');
+
+	return (0);
 
 }
