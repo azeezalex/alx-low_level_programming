@@ -7,7 +7,7 @@ int main(void)
 {
 int N = 0;
 
-for (N = 0; N <= 9 N++)
+for (N = 0; N <= 9; N++)
 printf("%d", N);
 printf("\n");
 return (0);
