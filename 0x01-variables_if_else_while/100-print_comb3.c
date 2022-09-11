@@ -18,11 +18,12 @@ if ((N != M) && (N < M))
 {
 putchar((N % 10) + '0');
 putchar((M % 10) + '0');
-if (N < 8)
+if ((N < 8) && (M < 9))
 putchar(',');
 putchar(' ');
 }
 }
 }
+putchar('\n');
 return (0);
 }
