@@ -16,7 +16,7 @@ for (M = 0; M < 8; M++)
 {
 for (N = M + 1; N < 9; N++)
 {
-for (O = N+ 1; O < 10; O++)
+for (O = N + 1; O < 10; O++)
 {
 putchar((M % 10) + '0');
 putchar((N % 10) + '0');
